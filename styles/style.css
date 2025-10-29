@@ -1,1 +1,365 @@
-/* место для вашего кода */
+header, main, footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header{
+    height: 293px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+}
+
+header nav {
+    justify-self: start;
+}
+
+header img{
+    width: 148px;
+}
+
+header ul{
+    list-style-type: circle;
+    display: flex;
+    text-transform: lowercase;
+}
+
+header address,
+footer address{
+    justify-self:end;
+    max-width: 240px; 
+    font-style: normal;
+    text-align: left; 
+    line-height: 0;
+}
+
+header ul, address{
+    font-family: "Raleway", sans-serif;
+    font-size:18px;
+    font-weight: 400;
+}
+
+header address a,
+header address p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    color: black;
+    display: block;
+}
+
+header ul li{
+    margin-right: 30px;
+}
+
+header ul li:first-child{
+    list-style-type: none;
+}
+
+.underlined{
+    text-underline-offset: 4px;
+    color:black;
+    text-decoration-thickness: 1.05px;
+}
+
+
+header ul li a:hover, 
+address a:hover,
+.description button:hover,
+.lots a:hover,
+.lots a h3:hover,
+.see-more:hover,
+footer a:hover{
+    color:rgb(98, 0, 255);
+}
+
+a.active{
+    text-decoration: none;
+    color:black;
+}
+
+.cover-section {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 757px;
+    position: relative;
+}
+
+.cover{
+    position: relative;
+}
+
+.cover h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 372px;
+}
+
+.cover-text{
+    font-family: "Raleway", sans-serif;
+    font-size:100px;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    position:absolute;
+    
+}
+
+.cover-text:nth-child(1){
+    margin: 165px 764px 477px 50px;
+}
+
+.cover-text:nth-child(2) {
+    margin: 300px 380.5px 342px;
+}
+
+.cover-text:nth-child(3) {
+    margin: 435px 50px 207px 663px;
+}
+
+.overlay{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.cover,
+.description {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.description {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.description p {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    margin: 0;
+}
+
+.description button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 32px;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-style: medium;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.lots ul{
+    display: flex;
+    gap: 25px; 
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.lot-card a,
+.lot-card p,
+.lot-card h3 {
+    color:white;
+    position: relative;
+    z-index: 2;
+}
+
+.lot-card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+
+.lots li{
+    list-style-type: none;
+    flex: 1;
+    max-width: 334px;
+    min-height: 596px;
+    flex: none;
+}
+
+.lots-section{
+    margin-top: 180px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.lot-card h3
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style:bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 48px;
+    line-height: 120%;
+}
+
+.lot-card p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom:48px;
+    line-height: 120%;
+
+}
+
+
+.lots h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-style: bold;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.see-more{
+    margin-left: 80px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+.about{
+    margin: 120px 24px 25px 0px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 72px;
+}
+
+.about-text{
+    margin-top: 98px;
+}
+
+.about-text p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.about-text p:first-child{
+    margin-top: 100px;
+    margin-bottom:24px;
+    padding-right: 5px;
+}
+
+.about h2{
+    font-family: "Raleway", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.icon{
+    width:148px;
+}
+
+.icon-circle{
+    width:240px;
+    height: 240px;
+    background-color: black;
+    border-radius:  50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:71px;
+    margin-top: 35px;
+}
+
+
+footer{
+    height: 180px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    padding-bottom: 131px;
+}
+
+footer li{
+    display: inline;
+}
+
+footer a{
+    color:black;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+footer address a,
+footer address p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    color: black;
+    display: block;
+}
+
+footer ul li a{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+    text-transform: lowercase;
+}
+
+
+.social-media-icon{
+    height: 48px;
+    width: 48px;
+    display: inline;
+}
