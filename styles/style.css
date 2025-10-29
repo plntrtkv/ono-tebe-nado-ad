@@ -1,9 +1,9 @@
-header, main, footer{
+header, main, footer {
     width: 1100px;
     margin: 0 auto;
 }
 
-header{
+header {
     height: 293px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -14,18 +14,18 @@ header nav {
     justify-self: start;
 }
 
-header img{
+header img {
     width: 148px;
 }
 
-header ul{
+header ul {
     list-style-type: circle;
     display: flex;
     text-transform: lowercase;
 }
 
 header address,
-footer address{
+footer address {
     justify-self:end;
     max-width: 240px; 
     font-style: normal;
@@ -33,7 +33,7 @@ footer address{
     line-height: 0;
 }
 
-header ul, address{
+header ul, address {
     font-family: "Raleway", sans-serif;
     font-size:18px;
     font-weight: 400;
@@ -48,15 +48,15 @@ header address p {
     display: block;
 }
 
-header ul li{
+header ul li {
     margin-right: 30px;
 }
 
-header ul li:first-child{
+header ul li:first-child {
     list-style-type: none;
 }
 
-.underlined{
+.underlined {
     text-underline-offset: 4px;
     color:black;
     text-decoration-thickness: 1.05px;
@@ -69,11 +69,11 @@ address a:hover,
 .lots a:hover,
 .lots a h3:hover,
 .see-more:hover,
-footer a:hover{
+footer a:hover {
     color:rgb(98, 0, 255);
 }
 
-a.active{
+a.active {
     text-decoration: none;
     color:black;
 }
@@ -87,7 +87,7 @@ a.active{
     position: relative;
 }
 
-.cover{
+.cover {
     position: relative;
 }
 
@@ -98,7 +98,7 @@ a.active{
     height: 372px;
 }
 
-.cover-text{
+.cover-text {
     font-family: "Raleway", sans-serif;
     font-size:100px;
     font-weight: 700;
@@ -109,7 +109,7 @@ a.active{
     
 }
 
-.cover-text:nth-child(1){
+.cover-text:nth-child(1) {
     margin: 165px 764px 477px 50px;
 }
 
@@ -121,7 +121,7 @@ a.active{
     margin: 435px 50px 207px 663px;
 }
 
-.overlay{
+.overlay {
     content: '';
     position: absolute;
     top: 0;
@@ -171,7 +171,7 @@ a.active{
     cursor: pointer;
 }
 
-.lots ul{
+.lots ul {
     display: flex;
     gap: 25px; 
     margin-bottom: 30px;
@@ -186,7 +186,7 @@ a.active{
     z-index: 2;
 }
 
-.lot-card{
+.lot-card {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -199,22 +199,20 @@ a.active{
 }
 
 
-.lots li{
+.lots li {
     list-style-type: none;
     flex: 1;
     max-width: 334px;
     min-height: 596px;
-    flex: none;
 }
 
-.lots-section{
+.lots-section {
     margin-top: 180px;
     margin-left: 24px;
     margin-right: 24px;
 }
 
-.lot-card h3
-{
+.lot-card h3 {
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-weight: 700;
@@ -225,7 +223,7 @@ a.active{
     line-height: 120%;
 }
 
-.lot-card p{
+.lot-card p {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -237,7 +235,7 @@ a.active{
 }
 
 
-.lots h2{
+.lots h2 {
     font-family: "Raleway", sans-serif;
     font-size: 40px;
     font-style: bold;
@@ -252,7 +250,7 @@ a.active{
     background-repeat: no-repeat;
 }
 
-.see-more{
+.see-more {
     margin-left: 80px;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -261,31 +259,31 @@ a.active{
     text-transform: lowercase;
 }
 
-.about{
+.about {
     margin: 120px 24px 25px 0px;
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 72px;
 }
 
-.about-text{
+.about-text {
     margin-top: 98px;
 }
 
-.about-text p{
+.about-text p {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
 }
 
-.about-text p:first-child{
+.about-text p:first-child {
     margin-top: 100px;
     margin-bottom:24px;
     padding-right: 5px;
 }
 
-.about h2{
+.about h2 {
     font-family: "Raleway", sans-serif;
     font-style: bold;
     font-weight: 700;
@@ -294,11 +292,11 @@ a.active{
     line-height: 24px;
 }
 
-.icon{
+.icon {
     width:148px;
 }
 
-.icon-circle{
+.icon-circle {
     width:240px;
     height: 240px;
     background-color: black;
@@ -311,7 +309,7 @@ a.active{
 }
 
 
-footer{
+footer {
     height: 180px;
     justify-content: space-between;
     display: flex;
@@ -320,11 +318,11 @@ footer{
     padding-bottom: 131px;
 }
 
-footer li{
+footer li {
     display: inline;
 }
 
-footer a{
+footer a {
     color:black;
 }
 
@@ -344,13 +342,13 @@ footer address p {
     display: block;
 }
 
-footer ul li a{
+footer ul li a {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
-footer ul{
+footer ul {
     list-style-type: none;
     display: flex;
     gap: 48px;
@@ -358,7 +356,7 @@ footer ul{
 }
 
 
-.social-media-icon{
+.social-media-icon {
     height: 48px;
     width: 48px;
     display: inline;
