@@ -1,41 +1,49 @@
 header, main, footer {
     width: 1100px;
     margin: 0 auto;
+    padding: 0;
 }
 
 header {
     height: 293px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    align-items: center;
-}
-
-header nav {
-    justify-self: start;
 }
 
 header img {
-    width: 148px;
+    margin-top: 92px;
+    height: 105px;
 }
 
 header ul {
     list-style-type: circle;
     display: flex;
     text-transform: lowercase;
+    margin-top: 133px;
+    margin-left: 10px;
+    padding-left: 48px;
+    min-width: 391.48px;
 }
 
-header address,
-footer address {
-    justify-self:end;
+header address, footer address {
+    justify-self: end;
     max-width: 240px; 
     font-style: normal;
     text-align: left; 
     line-height: 0;
+    margin: 133px 0 0 50px;  
+}
+
+header address {
+    margin-right: 50px;
+    width: 240px;
+    margin-top: 95px;
+    height:98px;
 }
 
 header ul, address {
     font-family: "Raleway", sans-serif;
-    font-size:18px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -43,13 +51,14 @@ header address a,
 header address p {
     padding: 0;
     margin: 0;
-    line-height: 1.2;
+    line-height: 24.3px;
     color: black;
     display: block;
 }
 
 header ul li {
     margin-right: 30px;
+    margin-left: 0px;
 }
 
 header ul li:first-child {
@@ -85,10 +94,15 @@ a.active {
     width: 100%;
     height: 757px;
     position: relative;
+    margin-left: 0;
+    padding-left: 0; 
 }
 
 .cover {
     position: relative;
+    margin-left: 0;
+    padding-left: 0;
+    left: 0;
 }
 
 .cover h1 {
