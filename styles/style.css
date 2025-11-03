@@ -1,5 +1,5 @@
 header, main, footer {
-    width: 1092px;
+    width: 1100px;
     margin: 0 auto;
     padding: 0;
 }
@@ -32,8 +32,7 @@ header address, footer address {
     max-width: 240px; 
     font-style: normal;
     text-align: left; 
-    line-height: 0;
-    margin: 133px 0 0 50px;  
+    line-height: 0;  
 }
 
 header address {
@@ -41,6 +40,7 @@ header address {
     width: 240px;
     margin-top: 89px;
     height: 98px;
+    
 }
 
 header ul, address {
@@ -93,7 +93,7 @@ a.active {
     background-size: cover;
     background-position-x: -137.5px;
     background-repeat: no-repeat;
-    min-width: 100%;
+    width: 1108px;
     height: 757px;
     position: relative;
     margin-left: -8px;
@@ -289,7 +289,7 @@ a.active {
 }
 
 .about-text {
-    margin-top: 98px;
+    margin-top: 99px;
 }
 
 .about-text p {
@@ -300,9 +300,12 @@ a.active {
 }
 
 .about-text p:first-child {
-    margin-top: 100px;
-    margin-bottom:24px;
-    padding-right: 5px;
+    margin: 112px 0 0 -3px;
+}
+
+.about-text p:last-of-type {
+    margin-left: -5x;
+    margin-top: 25px;
 }
 
 .about h2 {
@@ -312,6 +315,8 @@ a.active {
     font-size: 40px;
     text-transform: uppercase;
     line-height: 24px;
+    margin-top: 46px;
+    margin-left: 0px;
 }
 
 .icon {
@@ -326,7 +331,7 @@ a.active {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left:71px;
+    margin-left: 64px;
     margin-top: 35px;
 }
 
@@ -336,8 +341,8 @@ footer {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    margin-top: 180px;
     padding-bottom: 131px;
+    margin-top: 120px;
 }
 
 footer li {
@@ -353,6 +358,11 @@ footer nav ul {
     flex-direction: column;
     gap: 10px;
     align-items: center;
+}
+
+footer address{
+    margin: -7px 0 0 43px;
+    min-width: 260px;
 }
 
 footer address a,
