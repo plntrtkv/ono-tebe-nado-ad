@@ -2,6 +2,7 @@ header, main, footer {
     width: 1092px;
     margin: 0 auto;
     padding: 0;
+    font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -44,7 +45,6 @@ header address {
 }
 
 header ul, address {
-    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
@@ -115,7 +115,6 @@ a.active {
 }
 
 .cover-text {
-    font-family: "Raleway", sans-serif;
     font-size: 100px;
     font-weight: 700;
     font-style: bold;
@@ -165,7 +164,6 @@ a.active {
 }
 
 .description p {
-    font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
@@ -175,7 +173,6 @@ a.active {
 }
 
 .description button {
-    font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-style: medium;
     font-weight: 500;
@@ -235,7 +232,6 @@ a.active {
 }
 
 .lot-card h3 {
-    font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-weight: 700;
     font-style:bold;
@@ -246,7 +242,6 @@ a.active {
 }
 
 .lot-card p {
-    font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin-left: 40px;
@@ -257,7 +252,6 @@ a.active {
 
 
 .lots h2 {
-    font-family: "Raleway", sans-serif;
     font-size: 40px;
     font-style: bold;
     text-transform: uppercase;
@@ -272,7 +266,6 @@ a.active {
 }
 
 .see-more {
-    font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin-top: 2px;
@@ -294,7 +287,6 @@ a.active {
 }
 
 .about-text p {
-    font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -310,7 +302,6 @@ a.active {
 }
 
 .about h2 {
-    font-family: "Raleway", sans-serif;
     font-style: bold;
     font-weight: 700;
     font-size: 40px;
@@ -343,6 +334,7 @@ footer {
     display: flex;
     align-items: center;
     margin-top: 120px;
+    margin-bottom: 50px;
 }
 
 footer li {
@@ -378,7 +370,6 @@ footer address p {
 }
 
 footer ul li a {
-    font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
