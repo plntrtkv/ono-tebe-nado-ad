@@ -1,5 +1,5 @@
 header, main, footer {
-    width: 1100px;
+    width: 1092px;
     margin: 0 auto;
     padding: 0;
 }
@@ -12,7 +12,7 @@ header {
 
 header img {
     margin-top: 85px;
-    margin-right: 12px;
+    margin-right: 10px;
     height: 105px;
     width: 148px;
 }
@@ -93,7 +93,7 @@ a.active {
     background-size: cover;
     background-position-x: -137.5px;
     background-repeat: no-repeat;
-    width: 1108px;
+    min-width: 100%;
     height: 757px;
     position: relative;
     margin-left: -8px;
@@ -209,7 +209,7 @@ a.active {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    background-size: 540px 100%;
+    background-size: 543.5px 100%;
     background-position: center;
     background-repeat: no-repeat;
     margin-left: -49px;
@@ -282,6 +282,7 @@ a.active {
 }
 
 .about {
+    height: 595px;
     margin: 120px 24px 25px 0px;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -356,20 +357,23 @@ footer a {
 footer nav ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.7px;
     align-items: center;
+    margin: 3px 18px 0 0;
 }
 
 footer address{
-    margin: -7px 0 0 43px;
+    justify-self: unset;
     min-width: 260px;
+    margin-top: 35px;
+    margin-left: 42px;
 }
 
 footer address a,
 footer address p {
     padding: 0;
     margin: 0;
-    line-height: 1.2;
+    line-height: 1.35;
     color: black;
     display: block;
 }
@@ -383,13 +387,19 @@ footer ul li a {
 footer ul {
     list-style-type: none;
     display: flex;
-    gap: 48px;
+    gap: 0px;
     text-transform: lowercase;
 }
 
+.social-media-icon:last-child {
+    margin-right: 49px;
+}
 
 .social-media-icon {
     height: 48px;
     width: 48px;
     display: inline;
+    margin-right: 0;
+    justify-self: start;
+    margin-top: -10px;
 }
