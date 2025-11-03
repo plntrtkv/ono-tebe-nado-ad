@@ -29,10 +29,10 @@ header ul {
 
 header address, footer address {
     justify-self: end;
-    max-width: 240px; 
+    max-width: 240px;
     font-style: normal;
-    text-align: left; 
-    line-height: 0;  
+    text-align: left;
+    line-height: 0;
 }
 
 header address {
@@ -160,7 +160,7 @@ a.active {
     left: 50px;
     right: 50px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -175,21 +175,21 @@ a.active {
 }
 
 .description button {
-    background: transparent;
-    border: 1.2px solid white;
-    color: white;
-    padding: 12px 32px;
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-style: medium;
     font-weight: 500;
     text-transform: uppercase;
+    color: white;
+    background: transparent;
+    border: 1.2px solid white;
+    padding: 12px 32px;
     cursor: pointer;
 }
 
 .lots ul {
     display: flex;
-    gap: 72px; 
+    gap: 72px;
     margin-top: -7px;
     margin-bottom: 30px;
 }
@@ -215,7 +215,7 @@ a.active {
     margin-left: -49px;
 }
 
-.underlined-lots{
+.underlined-lots {
     text-underline-offset: 3px;
     color:black;
     text-decoration-thickness: 1.05px;
@@ -272,11 +272,11 @@ a.active {
 }
 
 .see-more {
-    margin-top: 2px;
-    margin-left: 33px;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-weight: 400;
+    margin-top: 2px;
+    margin-left: 33px;
     display: inline-block;
     text-transform: lowercase;
 }
@@ -342,7 +342,6 @@ footer {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    padding-bottom: 131px;
     margin-top: 120px;
 }
 
@@ -362,7 +361,7 @@ footer nav ul {
     margin: 3px 18px 0 0;
 }
 
-footer address{
+footer address {
     justify-self: unset;
     min-width: 260px;
     margin-top: 35px;
