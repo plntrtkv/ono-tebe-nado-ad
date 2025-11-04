@@ -10,6 +10,7 @@ header, main, footer {
 }
 
 header {
+    font-size: 18px;
     height: 293px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -40,14 +41,11 @@ header address, footer address {
 }
 
 header address {
+    font-style: normal;
     margin-right: 50px;
     width: 240px;
     margin-top: 89px;
     height: 98px;
-}
-
-header ul, address {
-    font-size: 18px;
 }
 
 header address a,
@@ -154,6 +152,8 @@ a.active {
 }
 
 .description {
+    font-size: 22px;
+    font-weight: normal;
     position: absolute;
     bottom: 50px;
     left: 50px;
@@ -164,7 +164,6 @@ a.active {
 }
 
 .description p {
-    font-size: 22px;
     text-transform: uppercase;
     word-spacing: 18.5px;
     margin: 0;
@@ -173,7 +172,6 @@ a.active {
 
 .description button {
     font-size: 22px;
-    font-weight: medium;
     text-transform: uppercase;
     color: white;
     background: transparent;
@@ -247,8 +245,8 @@ a.active {
 
 .lots h2 {
     font-size: 40px;
-    text-transform: uppercase;
     font-weight: bold;
+    text-transform: uppercase;
     margin-left: 33px;
 }
 
