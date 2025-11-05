@@ -111,14 +111,14 @@ a.active {
     flex-direction: column;
     justify-content: space-between;
     height: 372px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .cover-text {
     position: absolute;
-    font-weight: bold;
     font-size: 100px;
     letter-spacing: 30px;
-    text-transform: uppercase;
 }
 
 .cover-text:nth-child(1) {
@@ -276,6 +276,15 @@ a.active {
     margin-top: 99px;
 }
 
+.about h2 {
+    margin-top: 46px;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
 .about-text p {
     font-size: 20px;
     line-height: 24px;
@@ -288,15 +297,6 @@ a.active {
 .about-text p:last-of-type {
     margin-top: 25px;
     margin-left: -5x;
-}
-
-.about h2 {
-    margin-top: 46px;
-    margin-left: 0px;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 24px;
-    text-transform: uppercase;
 }
 
 .icon {
@@ -342,7 +342,6 @@ footer nav ul {
 }
 
 footer address {
-    justify-self: unset;
     min-width: 260px;
     margin-top: 35px;
     margin-left: 42px;
