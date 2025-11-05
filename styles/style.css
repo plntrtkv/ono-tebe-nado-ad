@@ -159,13 +159,13 @@ a.active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: normal;
-    font-size: 22px;
 }
 
 .description p {
     width: 637px;
     margin: 0;
+    font-weight: normal;
+    font-size: 22px;
     text-transform: uppercase;
     word-spacing: 18.5px;
 }
@@ -175,6 +175,8 @@ a.active {
     padding: 12px 32px;
     color: white;
     font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
     font-size: 22px;
     text-transform: uppercase;
     background: transparent;
@@ -228,6 +230,13 @@ a.active {
     margin-left: 24px;
 }
 
+.lots h2 {
+    margin-left: 33px;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
 .lot-card h3 {
     margin: 48px 40px 0;
     font-weight: bold;
@@ -242,13 +251,6 @@ a.active {
     margin-left: 40px;
     font-size: 20px;
     line-height: 120%;
-}
-
-.lots h2 {
-    margin-left: 33px;
-    font-weight: bold;
-    font-size: 40px;
-    text-transform: uppercase;
 }
 
 .card {
