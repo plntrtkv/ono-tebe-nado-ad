@@ -171,6 +171,7 @@ a.active {
 }
 
 .description button {
+    font-family: "Raleway", sans-serif;
     border: 1.2px solid white;
     padding: 12px 32px;
     color: white;
